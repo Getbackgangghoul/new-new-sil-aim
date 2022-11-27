@@ -378,7 +378,7 @@ local mt = getrawmetatable(game)
 local backupindex = mt.__index
 setreadonly(mt, false)
 -- // Load Silent Aim
-local ValiantAimHacks = loadstring(game:HttpGetAsync(""))()
+local ValiantAimHacks = loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Getbackgangghoul/new-new-sil-aim/main/1234254.lua"))()
 -- // Hook
 mt.__namecall = newcclosure(function(...)
     -- // Vars
@@ -403,7 +403,7 @@ local mt = getrawmetatable(game)
 local backupindex = mt.__index
 setreadonly(mt, false)
 -- // Load Silent Aim
-local GhoulAimHacks = loadstring(game:HttpGetAsync(""))()
+local GhoulAimHacks = loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Getbackgangghoul/new-new-sil-aim/main/1234254.lua"))()
 -- // Hook
 mt.__index = newcclosure(function(t, k)
     -- // Check if it trying to get our mouse's hit or target
